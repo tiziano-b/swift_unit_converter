@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB0B9B49223AD65F00CE83F9 /* ScrollViewManagemUIVCExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0B9B48223AD65F00CE83F9 /* ScrollViewManagemUIVCExtension.swift */; };
+		EB0B9B4B223AD99900CE83F9 /* ExtensionsManageScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0B9B4A223AD99900CE83F9 /* ExtensionsManageScrollView.swift */; };
+		EB0B9B4D223AE4FA00CE83F9 /* CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0B9B4C223AE4FA00CE83F9 /* CustomColor.swift */; };
+		EB0B9B50223AE68F00CE83F9 /* RoundedTextFieldIBDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0B9B4F223AE68F00CE83F9 /* RoundedTextFieldIBDesign.swift */; };
+		EB1C4C462236952000B20E27 /* KeyboardManagemUIVCExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1C4C452236952000B20E27 /* KeyboardManagemUIVCExtension.swift */; };
+		EB293FEE222C4ACB0020E081 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB293FED222C4ACB0020E081 /* AppDelegate.swift */; };
+		EB293FF0222C4ACB0020E081 /* WeightConverterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB293FEF222C4ACB0020E081 /* WeightConverterViewController.swift */; };
+		EB293FF2222C4ACB0020E081 /* TemperatureConverterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB293FF1222C4ACB0020E081 /* TemperatureConverterViewController.swift */; };
+		EB293FF5222C4ACB0020E081 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB293FF3222C4ACB0020E081 /* Main.storyboard */; };
+		EB293FF7222C4ACC0020E081 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB293FF6222C4ACC0020E081 /* Assets.xcassets */; };
+		EB293FFA222C4ACC0020E081 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB293FF8222C4ACC0020E081 /* LaunchScreen.storyboard */; };
+		EB294002222C4BD60020E081 /* LenghtConverterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB294001222C4BD60020E081 /* LenghtConverterViewController.swift */; };
+		EB294004222C4BEF0020E081 /* LiquidsConverterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB294003222C4BEF0020E081 /* LiquidsConverterViewController.swift */; };
+		EB294006222C4C080020E081 /* SpeedConverterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB294005222C4C080020E081 /* SpeedConverterViewController.swift */; };
+		EB29400A222C4C9C0020E081 /* WeightHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB294009222C4C9C0020E081 /* WeightHistoryViewController.swift */; };
+		EB29400C222C4CAA0020E081 /* TemperatureHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB29400B222C4CAA0020E081 /* TemperatureHistoryViewController.swift */; };
+		EB29400E222C4CB50020E081 /* LiquidsHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB29400D222C4CB50020E081 /* LiquidsHistoryViewController.swift */; };
+		EB294010222C4CBF0020E081 /* LenghtHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB29400F222C4CBF0020E081 /* LenghtHistoryViewController.swift */; };
+		EB294012222C4CC80020E081 /* SpeedHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB294011222C4CC80020E081 /* SpeedHistoryViewController.swift */; };
+		EB294018222C625A0020E081 /* CustomKeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB294017222C625A0020E081 /* CustomKeyboardViewController.swift */; };
+		EB29401C222C6B530020E081 /* RoundLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB29401B222C6B530020E081 /* RoundLabel.swift */; };
+		EB2FF1012240424D00782AE7 /* HistoryManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2FF1002240424D00782AE7 /* HistoryManagement.swift */; };
+		EB3FE48C2232C1DD00E9C8C7 /* CustomKeyboardHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3FE48B2232C1DD00E9C8C7 /* CustomKeyboardHelper.swift */; };
+		EB3FE48E2232EBE400E9C8C7 /* UITextFieldCustomKeyboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3FE48D2232EBE400E9C8C7 /* UITextFieldCustomKeyboardExtension.swift */; };
+		EB60BCAD223C5ACB00EF9075 /* ViewKeyboardCustomNoMinus.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB60BCAC223C5ACB00EF9075 /* ViewKeyboardCustomNoMinus.xib */; };
+		EBA1E91E223C310A00438D76 /* HeaderCustomExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA1E91D223C310A00438D76 /* HeaderCustomExtension.swift */; };
+		EBA1E920223C3C4200438D76 /* ConstantsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA1E91F223C3C4200438D76 /* ConstantsViewController.swift */; };
+		EBA1E922223C40BC00438D76 /* ViewKeyboardCustom.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBA1E921223C40BC00438D76 /* ViewKeyboardCustom.xib */; };
+		EBA1E924223C528B00438D76 /* ViewKeyboardCustomBasicRaw.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBA1E923223C528B00438D76 /* ViewKeyboardCustomBasicRaw.xib */; };
+		EBA7FDA6223E4769002667C1 /* README_Info_Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA7FDA5223E4769002667C1 /* README_Info_Project.swift */; };
+		EBA7FDA8223E4844002667C1 /* NavigationBarText.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA7FDA7223E4844002667C1 /* NavigationBarText.swift */; };
+		EBAC3C522233DFD900708045 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAC3C512233DFD900708045 /* Constants.swift */; };
+		EBC093232236CDAE005AB5A1 /* PopulateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC093222236CDAE005AB5A1 /* PopulateView.swift */; };
+		EBC76643223CF47A00798BB3 /* ConversionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC76642223CF47A00798BB3 /* ConversionModel.swift */; };
+		EBC76645223CF7DF00798BB3 /* TemperatureConversionImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC76644223CF7DF00798BB3 /* TemperatureConversionImplementation.swift */; };
+		EBC76647223CF9DA00798BB3 /* SpeedConversionImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC76646223CF9DA00798BB3 /* SpeedConversionImplementation.swift */; };
+		EBC76649223CFD2900798BB3 /* LiquidConversionImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC76648223CFD2900798BB3 /* LiquidConversionImplementation.swift */; };
+		EBC7664B223CFFFF00798BB3 /* LenghtConversionImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC7664A223CFFFF00798BB3 /* LenghtConversionImplementation.swift */; };
+		EBC7664D223D022200798BB3 /* WeightConversionImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC7664C223D022200798BB3 /* WeightConversionImplementation.swift */; };
+		EBC7664F223D152800798BB3 /* MeasureRoundHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC7664E223D152800798BB3 /* MeasureRoundHelper.swift */; };
+		EBC76651223D212E00798BB3 /* FoundationUnitLenghtSWIFTExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC76650223D212E00798BB3 /* FoundationUnitLenghtSWIFTExtension.swift */; };
+		EBCA091D2237E2C1003C30E9 /* RoundedButtonIBDesing.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBCA091C2237E2C1003C30E9 /* RoundedButtonIBDesing.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EB0B9B48223AD65F00CE83F9 /* ScrollViewManagemUIVCExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewManagemUIVCExtension.swift; sourceTree = "<group>"; };
+		EB0B9B4A223AD99900CE83F9 /* ExtensionsManageScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionsManageScrollView.swift; sourceTree = "<group>"; };
+		EB0B9B4C223AE4FA00CE83F9 /* CustomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColor.swift; sourceTree = "<group>"; };
+		EB0B9B4F223AE68F00CE83F9 /* RoundedTextFieldIBDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedTextFieldIBDesign.swift; sourceTree = "<group>"; };
+		EB1C4C452236952000B20E27 /* KeyboardManagemUIVCExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardManagemUIVCExtension.swift; sourceTree = "<group>"; };
+		EB293FEA222C4ACB0020E081 /* UnityConverterApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnityConverterApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB293FED222C4ACB0020E081 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB293FEF222C4ACB0020E081 /* WeightConverterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightConverterViewController.swift; sourceTree = "<group>"; };
+		EB293FF1222C4ACB0020E081 /* TemperatureConverterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureConverterViewController.swift; sourceTree = "<group>"; };
+		EB293FF4222C4ACB0020E081 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB293FF6222C4ACC0020E081 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB293FF9222C4ACC0020E081 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB293FFB222C4ACC0020E081 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB294001222C4BD60020E081 /* LenghtConverterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LenghtConverterViewController.swift; sourceTree = "<group>"; };
+		EB294003222C4BEF0020E081 /* LiquidsConverterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiquidsConverterViewController.swift; sourceTree = "<group>"; };
+		EB294005222C4C080020E081 /* SpeedConverterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedConverterViewController.swift; sourceTree = "<group>"; };
+		EB294009222C4C9C0020E081 /* WeightHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightHistoryViewController.swift; sourceTree = "<group>"; };
+		EB29400B222C4CAA0020E081 /* TemperatureHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureHistoryViewController.swift; sourceTree = "<group>"; };
+		EB29400D222C4CB50020E081 /* LiquidsHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiquidsHistoryViewController.swift; sourceTree = "<group>"; };
+		EB29400F222C4CBF0020E081 /* LenghtHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LenghtHistoryViewController.swift; sourceTree = "<group>"; };
+		EB294011222C4CC80020E081 /* SpeedHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedHistoryViewController.swift; sourceTree = "<group>"; };
+		EB294017222C625A0020E081 /* CustomKeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomKeyboardViewController.swift; sourceTree = "<group>"; };
+		EB29401B222C6B530020E081 /* RoundLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundLabel.swift; sourceTree = "<group>"; };
+		EB2FF1002240424D00782AE7 /* HistoryManagement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryManagement.swift; sourceTree = "<group>"; };
+		EB3FE48B2232C1DD00E9C8C7 /* CustomKeyboardHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomKeyboardHelper.swift; sourceTree = "<group>"; };
+		EB3FE48D2232EBE400E9C8C7 /* UITextFieldCustomKeyboardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldCustomKeyboardExtension.swift; sourceTree = "<group>"; };
+		EB60BCAC223C5ACB00EF9075 /* ViewKeyboardCustomNoMinus.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewKeyboardCustomNoMinus.xib; sourceTree = "<group>"; };
+		EBA1E91D223C310A00438D76 /* HeaderCustomExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCustomExtension.swift; sourceTree = "<group>"; };
+		EBA1E91F223C3C4200438D76 /* ConstantsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsViewController.swift; sourceTree = "<group>"; };
+		EBA1E921223C40BC00438D76 /* ViewKeyboardCustom.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewKeyboardCustom.xib; sourceTree = "<group>"; };
+		EBA1E923223C528B00438D76 /* ViewKeyboardCustomBasicRaw.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewKeyboardCustomBasicRaw.xib; sourceTree = "<group>"; };
+		EBA7FDA5223E4769002667C1 /* README_Info_Project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = README_Info_Project.swift; sourceTree = "<group>"; };
+		EBA7FDA7223E4844002667C1 /* NavigationBarText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarText.swift; sourceTree = "<group>"; };
+		EBAC3C512233DFD900708045 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		EBC093222236CDAE005AB5A1 /* PopulateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopulateView.swift; sourceTree = "<group>"; };
+		EBC76642223CF47A00798BB3 /* ConversionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionModel.swift; sourceTree = "<group>"; };
+		EBC76644223CF7DF00798BB3 /* TemperatureConversionImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureConversionImplementation.swift; sourceTree = "<group>"; };
+		EBC76646223CF9DA00798BB3 /* SpeedConversionImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedConversionImplementation.swift; sourceTree = "<group>"; };
+		EBC76648223CFD2900798BB3 /* LiquidConversionImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiquidConversionImplementation.swift; sourceTree = "<group>"; };
+		EBC7664A223CFFFF00798BB3 /* LenghtConversionImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LenghtConversionImplementation.swift; sourceTree = "<group>"; };
+		EBC7664C223D022200798BB3 /* WeightConversionImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightConversionImplementation.swift; sourceTree = "<group>"; };
+		EBC7664E223D152800798BB3 /* MeasureRoundHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasureRoundHelper.swift; sourceTree = "<group>"; };
+		EBC76650223D212E00798BB3 /* FoundationUnitLenghtSWIFTExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundationUnitLenghtSWIFTExtension.swift; sourceTree = "<group>"; };
+		EBCA091C2237E2C1003C30E9 /* RoundedButtonIBDesing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButtonIBDesing.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB293FE7222C4ACB0020E081 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB0B9B4E223AE66400CE83F9 /* GraphicElementDesign */ = {
+			isa = PBXGroup;
+			children = (
+				EB29401B222C6B530020E081 /* RoundLabel.swift */,
+				EBCA091C2237E2C1003C30E9 /* RoundedButtonIBDesing.swift */,
+				EB0B9B4F223AE68F00CE83F9 /* RoundedTextFieldIBDesign.swift */,
+				EB0B9B4C223AE4FA00CE83F9 /* CustomColor.swift */,
+				EBA7FDA7223E4844002667C1 /* NavigationBarText.swift */,
+			);
+			path = GraphicElementDesign;
+			sourceTree = "<group>";
+		};
+		EB293FE1222C4ACB0020E081 = {
+			isa = PBXGroup;
+			children = (
+				EB293FEC222C4ACB0020E081 /* UnityConverterApp */,
+				EB293FEB222C4ACB0020E081 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB293FEB222C4ACB0020E081 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB293FEA222C4ACB0020E081 /* UnityConverterApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB293FEC222C4ACB0020E081 /* UnityConverterApp */ = {
+			isa = PBXGroup;
+			children = (
+				EBA7FDA4223E4756002667C1 /* Info */,
+				EB9D2BD12240EE7D00E1C411 /* ExtensionMeasurements */,
+				EB0B9B4E223AE66400CE83F9 /* GraphicElementDesign */,
+				EB3FE48A2232C1C300E9C8C7 /* Model */,
+				EB294014222C60410020E081 /* CustomKeyboard */,
+				EB74DFF12234319A001C5AD7 /* ExtensionUIViewController */,
+				EB294008222C4C7F0020E081 /* HistoryConstantsViewController */,
+				EB294007222C4C500020E081 /* ConverterViewController */,
+				EB293FED222C4ACB0020E081 /* AppDelegate.swift */,
+				EB293FF3222C4ACB0020E081 /* Main.storyboard */,
+				EB293FF6222C4ACC0020E081 /* Assets.xcassets */,
+				EB293FF8222C4ACC0020E081 /* LaunchScreen.storyboard */,
+				EB293FFB222C4ACC0020E081 /* Info.plist */,
+			);
+			path = UnityConverterApp;
+			sourceTree = "<group>";
+		};
+		EB294007222C4C500020E081 /* ConverterViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EB0B9B4A223AD99900CE83F9 /* ExtensionsManageScrollView.swift */,
+				EB293FF1222C4ACB0020E081 /* TemperatureConverterViewController.swift */,
+				EB293FEF222C4ACB0020E081 /* WeightConverterViewController.swift */,
+				EB294005222C4C080020E081 /* SpeedConverterViewController.swift */,
+				EB294003222C4BEF0020E081 /* LiquidsConverterViewController.swift */,
+				EB294001222C4BD60020E081 /* LenghtConverterViewController.swift */,
+			);
+			path = ConverterViewController;
+			sourceTree = "<group>";
+		};
+		EB294008222C4C7F0020E081 /* HistoryConstantsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EB294009222C4C9C0020E081 /* WeightHistoryViewController.swift */,
+				EB29400B222C4CAA0020E081 /* TemperatureHistoryViewController.swift */,
+				EB29400D222C4CB50020E081 /* LiquidsHistoryViewController.swift */,
+				EB29400F222C4CBF0020E081 /* LenghtHistoryViewController.swift */,
+				EB294011222C4CC80020E081 /* SpeedHistoryViewController.swift */,
+				EBA1E91F223C3C4200438D76 /* ConstantsViewController.swift */,
+			);
+			path = HistoryConstantsViewController;
+			sourceTree = "<group>";
+		};
+		EB294014222C60410020E081 /* CustomKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				EBC789FC22407B3E0019C03E /* Model */,
+				EBC789FB22407B150019C03E /* Controller */,
+				EBC789FA22407B0C0019C03E /* View */,
+				EB1C4C452236952000B20E27 /* KeyboardManagemUIVCExtension.swift */,
+				EB0B9B48223AD65F00CE83F9 /* ScrollViewManagemUIVCExtension.swift */,
+				EB3FE48D2232EBE400E9C8C7 /* UITextFieldCustomKeyboardExtension.swift */,
+			);
+			path = CustomKeyboard;
+			sourceTree = "<group>";
+		};
+		EB3FE48A2232C1C300E9C8C7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EBC789F922407AB90019C03E /* Conversion */,
+				EB2FF1002240424D00782AE7 /* HistoryManagement.swift */,
+				EBC7664E223D152800798BB3 /* MeasureRoundHelper.swift */,
+				EBAC3C512233DFD900708045 /* Constants.swift */,
+				EBC093222236CDAE005AB5A1 /* PopulateView.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EB74DFF12234319A001C5AD7 /* ExtensionUIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EBA1E91D223C310A00438D76 /* HeaderCustomExtension.swift */,
+			);
+			path = ExtensionUIViewController;
+			sourceTree = "<group>";
+		};
+		EB9D2BD12240EE7D00E1C411 /* ExtensionMeasurements */ = {
+			isa = PBXGroup;
+			children = (
+				EBC76650223D212E00798BB3 /* FoundationUnitLenghtSWIFTExtension.swift */,
+			);
+			path = ExtensionMeasurements;
+			sourceTree = "<group>";
+		};
+		EBA7FDA4223E4756002667C1 /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				EBA7FDA5223E4769002667C1 /* README_Info_Project.swift */,
+			);
+			path = Info;
+			sourceTree = "<group>";
+		};
+		EBC789F922407AB90019C03E /* Conversion */ = {
+			isa = PBXGroup;
+			children = (
+				EBC76642223CF47A00798BB3 /* ConversionModel.swift */,
+				EBC7664C223D022200798BB3 /* WeightConversionImplementation.swift */,
+				EBC76646223CF9DA00798BB3 /* SpeedConversionImplementation.swift */,
+				EBC76648223CFD2900798BB3 /* LiquidConversionImplementation.swift */,
+				EBC7664A223CFFFF00798BB3 /* LenghtConversionImplementation.swift */,
+				EBC76644223CF7DF00798BB3 /* TemperatureConversionImplementation.swift */,
+			);
+			path = Conversion;
+			sourceTree = "<group>";
+		};
+		EBC789FA22407B0C0019C03E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EBA1E921223C40BC00438D76 /* ViewKeyboardCustom.xib */,
+				EB60BCAC223C5ACB00EF9075 /* ViewKeyboardCustomNoMinus.xib */,
+				EBA1E923223C528B00438D76 /* ViewKeyboardCustomBasicRaw.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EBC789FB22407B150019C03E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EB294017222C625A0020E081 /* CustomKeyboardViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EBC789FC22407B3E0019C03E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EB3FE48B2232C1DD00E9C8C7 /* CustomKeyboardHelper.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB293FE9222C4ACB0020E081 /* UnityConverterApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB293FFE222C4ACC0020E081 /* Build configuration list for PBXNativeTarget "UnityConverterApp" */;
+			buildPhases = (
+				EB293FE6222C4ACB0020E081 /* Sources */,
+				EB293FE7222C4ACB0020E081 /* Frameworks */,
+				EB293FE8222C4ACB0020E081 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UnityConverterApp;
+			productName = UnityConverterApp;
+			productReference = EB293FEA222C4ACB0020E081 /* UnityConverterApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB293FE2222C4ACB0020E081 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Tiziano Bissola";
+				TargetAttributes = {
+					EB293FE9222C4ACB0020E081 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = EB293FE5222C4ACB0020E081 /* Build configuration list for PBXProject "UnityConverterApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB293FE1222C4ACB0020E081;
+			productRefGroup = EB293FEB222C4ACB0020E081 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB293FE9222C4ACB0020E081 /* UnityConverterApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB293FE8222C4ACB0020E081 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB60BCAD223C5ACB00EF9075 /* ViewKeyboardCustomNoMinus.xib in Resources */,
+				EB293FFA222C4ACC0020E081 /* LaunchScreen.storyboard in Resources */,
+				EB293FF7222C4ACC0020E081 /* Assets.xcassets in Resources */,
+				EBA1E924223C528B00438D76 /* ViewKeyboardCustomBasicRaw.xib in Resources */,
+				EB293FF5222C4ACB0020E081 /* Main.storyboard in Resources */,
+				EBA1E922223C40BC00438D76 /* ViewKeyboardCustom.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB293FE6222C4ACB0020E081 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB294018222C625A0020E081 /* CustomKeyboardViewController.swift in Sources */,
+				EB1C4C462236952000B20E27 /* KeyboardManagemUIVCExtension.swift in Sources */,
+				EBC7664B223CFFFF00798BB3 /* LenghtConversionImplementation.swift in Sources */,
+				EBC7664D223D022200798BB3 /* WeightConversionImplementation.swift in Sources */,
+				EB0B9B49223AD65F00CE83F9 /* ScrollViewManagemUIVCExtension.swift in Sources */,
+				EBC76649223CFD2900798BB3 /* LiquidConversionImplementation.swift in Sources */,
+				EBC76651223D212E00798BB3 /* FoundationUnitLenghtSWIFTExtension.swift in Sources */,
+				EB0B9B4D223AE4FA00CE83F9 /* CustomColor.swift in Sources */,
+				EB0B9B50223AE68F00CE83F9 /* RoundedTextFieldIBDesign.swift in Sources */,
+				EBA7FDA6223E4769002667C1 /* README_Info_Project.swift in Sources */,
+				EB2FF1012240424D00782AE7 /* HistoryManagement.swift in Sources */,
+				EB3FE48C2232C1DD00E9C8C7 /* CustomKeyboardHelper.swift in Sources */,
+				EBC7664F223D152800798BB3 /* MeasureRoundHelper.swift in Sources */,
+				EB29400C222C4CAA0020E081 /* TemperatureHistoryViewController.swift in Sources */,
+				EBCA091D2237E2C1003C30E9 /* RoundedButtonIBDesing.swift in Sources */,
+				EB29400A222C4C9C0020E081 /* WeightHistoryViewController.swift in Sources */,
+				EB294012222C4CC80020E081 /* SpeedHistoryViewController.swift in Sources */,
+				EBA7FDA8223E4844002667C1 /* NavigationBarText.swift in Sources */,
+				EBA1E920223C3C4200438D76 /* ConstantsViewController.swift in Sources */,
+				EB294004222C4BEF0020E081 /* LiquidsConverterViewController.swift in Sources */,
+				EB294010222C4CBF0020E081 /* LenghtHistoryViewController.swift in Sources */,
+				EBC76647223CF9DA00798BB3 /* SpeedConversionImplementation.swift in Sources */,
+				EBC76645223CF7DF00798BB3 /* TemperatureConversionImplementation.swift in Sources */,
+				EBC093232236CDAE005AB5A1 /* PopulateView.swift in Sources */,
+				EB293FF2222C4ACB0020E081 /* TemperatureConverterViewController.swift in Sources */,
+				EB293FEE222C4ACB0020E081 /* AppDelegate.swift in Sources */,
+				EB3FE48E2232EBE400E9C8C7 /* UITextFieldCustomKeyboardExtension.swift in Sources */,
+				EB293FF0222C4ACB0020E081 /* WeightConverterViewController.swift in Sources */,
+				EB29400E222C4CB50020E081 /* LiquidsHistoryViewController.swift in Sources */,
+				EBA1E91E223C310A00438D76 /* HeaderCustomExtension.swift in Sources */,
+				EB294002222C4BD60020E081 /* LenghtConverterViewController.swift in Sources */,
+				EB0B9B4B223AD99900CE83F9 /* ExtensionsManageScrollView.swift in Sources */,
+				EBC76643223CF47A00798BB3 /* ConversionModel.swift in Sources */,
+				EB294006222C4C080020E081 /* SpeedConverterViewController.swift in Sources */,
+				EB29401C222C6B530020E081 /* RoundLabel.swift in Sources */,
+				EBAC3C522233DFD900708045 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EB293FF3222C4ACB0020E081 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB293FF4222C4ACB0020E081 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB293FF8222C4ACC0020E081 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB293FF9222C4ACC0020E081 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB293FFC222C4ACC0020E081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB293FFD222C4ACC0020E081 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB293FFF222C4ACC0020E081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V5D7XGYZDQ;
+				INFOPLIST_FILE = UnityConverterApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tizianobissola.UnityConverterApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EB294000222C4ACC0020E081 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V5D7XGYZDQ;
+				INFOPLIST_FILE = UnityConverterApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tizianobissola.UnityConverterApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB293FE5222C4ACB0020E081 /* Build configuration list for PBXProject "UnityConverterApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB293FFC222C4ACC0020E081 /* Debug */,
+				EB293FFD222C4ACC0020E081 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB293FFE222C4ACC0020E081 /* Build configuration list for PBXNativeTarget "UnityConverterApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB293FFF222C4ACC0020E081 /* Debug */,
+				EB294000222C4ACC0020E081 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB293FE2222C4ACB0020E081 /* Project object */;
+}

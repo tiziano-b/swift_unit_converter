@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "93A19D6B-F011-4908-898E-9B227BF6F9E1"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F83A880E-4194-49E4-B4A4-9FCB513A0281"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UnityConverterApp/Converter/WeightConverterViewController.swift"
+            timestampString = "574280656.270715"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "WeightConverterViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "F83A880E-4194-49E4-B4A4-9FCB513A0281 - 1aa947851ca9aad5"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UnityConverterApp.WeightConverterViewController.kilogramsTextField.getter : weak Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "UnityConverterApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tiziano/Desktop/Westminster%20Modules/mobile%20application%20iOS/iOS_applications/UnityConverterApp/UnityConverterApp/UnityConverterApp/Converter/WeightConverterViewController.swift"
+                  timestampString = "573933832.686371"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "86">
+               </Location>
+               <Location
+                  uuid = "F83A880E-4194-49E4-B4A4-9FCB513A0281 - 63cef3a83037a29"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UnityConverterApp.WeightConverterViewController.kilogramsTextField.setter : weak Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "UnityConverterApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tiziano/Desktop/Westminster%20Modules/mobile%20application%20iOS/iOS_applications/UnityConverterApp/UnityConverterApp/UnityConverterApp/Converter/WeightConverterViewController.swift"
+                  timestampString = "573933832.689062"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "106">
+               </Location>
+               <Location
+                  uuid = "F83A880E-4194-49E4-B4A4-9FCB513A0281 - 28a7fa521c951f6c"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UnityConverterApp.WeightConverterViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; UnityConverterApp.WeightConverterViewController"
+                  moduleName = "UnityConverterApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tiziano/Desktop/Westminster%20Modules/mobile%20application%20iOS/iOS_applications/UnityConverterApp/UnityConverterApp/UnityConverterApp/Converter/WeightConverterViewController.swift"
+                  timestampString = "573933832.691431"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "244">
+               </Location>
+               <Location
+                  uuid = "F83A880E-4194-49E4-B4A4-9FCB513A0281 - 265e55e59d668dd5"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UnityConverterApp.WeightConverterViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;UnityConverterApp.WeightConverterViewController&gt;"
+                  moduleName = "UnityConverterApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tiziano/Desktop/Westminster%20Modules/mobile%20application%20iOS/iOS_applications/UnityConverterApp/UnityConverterApp/UnityConverterApp/Converter/WeightConverterViewController.swift"
+                  timestampString = "573933832.6935509"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "212">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E42A307B-E7C3-4470-B18F-BFFB0DD45E09"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UnityConverterApp/Converter/WeightConverterViewController.swift"
+            timestampString = "574280656.271198"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "WeightConverterViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.SymbolicBreakpoint">
+         <BreakpointContent
+            uuid = "87ECA544-2E12-4817-9C59-430FFA9824CB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "UIViewAlertForUnsatisfiableConstraints"
+            moduleName = "">
+            <Locations>
+               <Location
+                  uuid = "87ECA544-2E12-4817-9C59-430FFA9824CB - ba3ad5676a792f38"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UIViewAlertForUnsatisfiableConstraints"
+                  moduleName = "UIKitCore"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
